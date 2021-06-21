@@ -1,25 +1,32 @@
 package Inflearn.StackQueue;
 
+import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class 올바른괄호 {
+public class 괄호문자제거 {
     public static String solution(String str){
-        String answer = "YES";
+        String answer = "";
 
         Stack<Character> stack = new Stack<>();
 
         for(char c : str.toCharArray()){
-            if(c == '('){
+            if(c != ')'){
                 stack.push(c);
             }else{
-                if(stack.isEmpty()) return "NO";
-
-                stack.pop();
+                while(!stack.isEmpty()){
+                    char a = stack.pop();
+                    if(a == '(') break;
+                }
             }
         }
 
-        if(!stack.isEmpty()) return "NO";
+//        while(!stack.isEmpty())
+//            answer += stack.pop();
+//        answer = new StringBuilder(answer).reverse().toString();
+
+        for(int i = 0; i < stack.size(); i++)
+            answer += stack.get(i);
 
         return answer;
     }
