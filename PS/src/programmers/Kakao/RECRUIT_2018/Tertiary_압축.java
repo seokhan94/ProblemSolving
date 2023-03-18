@@ -1,4 +1,4 @@
-package programmers.Kakao.RECRUIT_2018;
+package programmers.kakao.RECRUIT_2018;
 
 import java.util.ArrayList;
 import java.util.HashMap;

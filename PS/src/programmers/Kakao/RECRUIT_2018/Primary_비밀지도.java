@@ -1,4 +1,4 @@
-package programmers.Kakao.RECRUIT_2018;
+package programmers.kakao.RECRUIT_2018;
 
 public class Primary_비밀지도 {
     public static void main(String[] args) {

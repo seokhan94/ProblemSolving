@@ -1,4 +1,4 @@
-package programmers;
+package programmers.lv_2;
 
 import java.util.*;
 

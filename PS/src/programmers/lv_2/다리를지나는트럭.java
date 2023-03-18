@@ -1,9 +1,9 @@
-package programmers.skillTest;
+package programmers.lv_2;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class L2_2 {
+public class 다리를지나는트럭 {
     public static class Truck {
         int weight;
         int move;

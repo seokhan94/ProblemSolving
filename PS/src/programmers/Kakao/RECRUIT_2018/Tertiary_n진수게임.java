@@ -1,4 +1,4 @@
-package programmers.Kakao.RECRUIT_2018;
+package programmers.kakao.RECRUIT_2018;
 
 public class Tertiary_n진수게임 {
     public static void main(String[] args) {
